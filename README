@@ -1,0 +1,11 @@
+Simple python project for encrypting my password files.
+Expects file as an input and writes output to the same file.
+Uses triple DES by default with a 16 bit passkey.
+
+___USAGE___
+python endec.py [ARG]
+
+ARG : 
+    help - show usage
+    DES  - uses DES for encryption/decryption
+    TDES - uses triple DES for encryption/decryption (default)
